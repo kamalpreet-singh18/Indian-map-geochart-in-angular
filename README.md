@@ -1,27 +1,21 @@
-# AngularGoogleCharts
+# Indian Map Geochart in angular
+This repo contains a small project which contains indian map along with the data about the states. In this project, the data considered is number of covid-19 positive cases in Indian states. 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.1.
+## Installation
+Download or clone this repo and install all the dependencies required for this project by running command:
+`npm install`
 
-## Development server
+Remember for geochart, the library used is: **ng2-google-charts**
+This will be automatically installed by running above command.
+To learn more about ng2-google-charts library, refer: [ng2-google-charts github repo][ng2-google-charts-github repo]
+[ng2-google-charts-github repo]: https://github.com/gmazzamuto/ng2-google-charts "ng2-google-charts"
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+### Files of importance
+If you are looking the files where modification needs to be done in order to use Map, kindly go to the following files:
+* 'src/app/app.module.ts'
+* 'src/app/geochart/geochart.component.html'
+* 'src/app/geochart/geochart.component.ts'
 
-## Code scaffolding
+------------
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Kindly ignore the piechart directory as I am currently working on it and it is not required for map purpose. Also ignore the service and model files as they are used only to get data from api.
