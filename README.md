@@ -7,8 +7,7 @@ Download or clone this repo and install all the dependencies required for this p
 
 Remember for geochart, the library used is: **ng2-google-charts**
 This will be automatically installed by running above command.
-To learn more about ng2-google-charts library, refer: [ng2-google-charts github repo][ng2-google-charts-github repo]
-[ng2-google-charts-github repo]: https://github.com/gmazzamuto/ng2-google-charts "ng2-google-charts"
+To learn more about ng2-google-charts library, refer:  https://github.com/gmazzamuto/ng2-google-charts 
 
 ### Files of importance
 If you are looking the files where modification needs to be done in order to use Map, kindly go to the following files:
