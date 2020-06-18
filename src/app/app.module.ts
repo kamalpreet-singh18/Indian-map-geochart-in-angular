@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { Ng2GoogleChartsModule, GoogleChartsSettings } from 'ng2-google-charts';
 import { PiechartComponent } from './piechart/piechart.component';
 import { GeochartComponent } from './geochart/geochart.component';
+import { HttpClientModule } from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
@@ -15,7 +16,8 @@ import { GeochartComponent } from './geochart/geochart.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    Ng2GoogleChartsModule
+    Ng2GoogleChartsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,1 +1,5 @@
-<google-chart [data]="geoChart" ></google-chart>
+<div class="text-center">
+    <h2 class="display-3">Covid confirmed Cases in India!</h2>
+    
+</div>
+<google-chart [data]="geoChart" *ngIf=mapReady></google-chart>
